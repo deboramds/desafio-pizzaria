@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+  <header class="cabecalho">
+    <img class="imagem-cabecalho" src="imagens/cabecalho-pizza-02.png" alt="logo-pizzaria-martins">
+  </div>
+  </header>
+
+  <div class="container-pagina-inicial">
+
+    <div class="cardapio">
+      <img class="cardapio-pizza" src="imagens/cardapio-pizza.jpg" alt="imagem-do-cardapio">
+    </div>
+
+    <section class="form-conta">
+        <form id="form" action="">
+          <div>
+            <label>Valor da conta: </label><br>
+            <input type="text" id="valorConta" placeholder="Valor da conta " required>
+          </div>
+          <div>
+            <label>Valor total da taxa: </label><br>
+            <input type="text" id="valorTaxa" placeholder="Valor total da taxa " required>
+          </div>
+          <div>
+            <label>Quantidade de Pagantes: </label><br>
+            <input type="text" id="quantidade" placeholder="Quantidade de Pagantes " required>
+
+            <div>
+              <button onclick="formEvent()">Contabilizar</button>
+            </div>
+          </div>
+          
+          <section class="container-valor-da-conta">
+            <div class="resultado-final" id="resultado">
+              <h4>Total</h4>
+            </div>
+    
+        </form>
+      
+      </section>
+
+  </div>
+      <script src="./main.js"></script>
+    
+      <footer>Copyright © Débora Martins</footer>
+</body>
+</html>

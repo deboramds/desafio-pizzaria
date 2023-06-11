@@ -1,0 +1,62 @@
+body{
+   background-image: linear-gradient(
+ 45deg, black, rgb(56, 51, 51)
+   );
+
+   display: grid;
+   place-content: center;
+}
+
+.container-pagina-inicial{
+width: 700px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.imagem-cabecalho {
+    width: 200vh;
+    height:  260px;
+    margin: 30px;
+    border: 10px;
+    padding: 20px
+}
+
+.cardapio-pizza {
+    width: 450px;
+    height: 800px;
+}
+
+.container-pagina-inicial{
+    display: flex;
+    gap: 5px;
+}
+
+.form-conta{
+    width: 480px;
+    height: 500px;
+    padding: 100px;
+    text-align: center;
+    color: blanchedalmond;
+    box-shadow: 3px 4px 1px rgb(129, 115, 115);
+    font-size: 19px;
+    align-items: center;
+    background-color: #161414;
+    border-radius: 4%;
+    border: 1px solid rgb(36, 33, 33);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container-valor-da-conta {
+    width: 195px;
+    height: 100px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+
+footer {
+    font-size: 15px;
+    color: aliceblue;
+    text-align: center;
+}
